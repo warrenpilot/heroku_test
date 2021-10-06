@@ -1,0 +1,29 @@
+h2 a, p {
+    color: green;
+    font-family: 'VT323';
+    font-size: 36pt;
+}
+
+ul li {
+    color: green;
+    font-family: 'VT323';
+    font-size: 16pt;
+}
+
+.p-3 {
+    color: green;
+    font-family: 'VT323';
+    font-size: 42pt;
+}
+
+body {
+    padding-left: 30px;
+    background-color: black;
+}
+
+div {
+  color: green;
+  font-family: 'VT323';
+  border: 1px #E3D7B0;
+  width: 50%;
+}

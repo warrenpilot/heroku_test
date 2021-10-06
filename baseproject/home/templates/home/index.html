@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+
+<head>
+	<link rel="stylesheet" href="{% static 'css/polls.css' %}">
+    {{ script | safe }}
+    <style>
+
+    </style>
+</head>
+
+
+<h2 class="p-3 mb-2 bg-secondary text-white ">HOME</h2>
+
+{{user}}
+<p><a href="{% url 'logout'%}">logout</a></p>
+
+
+<body>
+<div id="home_links" style="position:absolute;top: 135px;">
+<h4/>Links</h4>
+<ul>
+<li><a style="margin-left:2%" href="https://www.yahoo.com/" target="_blank">Yahoo</a></li>
+</ul>
+</div>
+
+</body>
